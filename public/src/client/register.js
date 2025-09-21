@@ -34,6 +34,8 @@ define('forum/register', [
 			}
 		});
 
+		// Added a comment
+
 		password.on('blur', function () {
 			if (password.val().length) {
 				validatePassword(password.val(), password_confirm.val());
